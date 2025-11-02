@@ -5,6 +5,7 @@
 All text below this is from the github page on using [markdown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
 
 I am using pandoc and it is super simple. Just have a markdown file which I can edit in say vscode and a css.
+The website url will be this for the time [being](https://deepak-venkatesh.github.io/).
 This is made into an html via this command in the terminal.
 
 ```
