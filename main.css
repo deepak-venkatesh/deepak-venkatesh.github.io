@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;600&family=Roboto+Mono&display=swap');
+
+:root {
+  --text: #222;           /* rich graphite text */
+  --muted: #555;          /* secondary text tone */
+  --bg: #ffffff;          /* clean white background */
+  --accent: #6b3fa0;      /* subtle violet accent */
+  --code-bg: #f9f9f9;     /* light gray for code */
+  --border: #e8e8e8;
+  --measure: 65ch;        /* comfortable reading width */
+  --lh: 1.6;
+  --space: 1.1rem;
+}
+
+/* ---- Base ---- */
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background: var(--bg);
+  color: var(--text);
+  font-family: "EB Garamond", Georgia, "Times New Roman", serif;
+  font-size: 1.15em;
+  line-height: var(--lh);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/* ---- Layout ---- */
+body, #main-block {
+  max-width: var(--measure);
+  margin: 3rem auto;
+  padding: 0 1.5rem;
+}
+
+/* ---- Headings ---- */
+h1, h2, h3, h4 {
+  font-family: "EB Garamond", "Times New Roman", serif;
+  color: var(--text);
+  font-weight: 400;
+  margin-top: 2.5rem;
+  margin-bottom: 0.8rem;
+}
+h1 {
+  text-align: center;
+  margin-top: 0;
+  font-size: 2rem;
+  letter-spacing: 0.3px;
+}
+
+/* ---- Paragraphs ---- */
+p, .verse {
+  margin: 0 0 var(--space);
+  text-align: justify;
+  text-justify: inter-word;
+  hyphens: auto;
+  color: var(--text);
+  font-size: 1.1em;
+}
+
+/* ---- Blockquote ---- */
+blockquote {
+  font-size: 1.05em;
+  color: var(--muted);
+  border-left: 3px solid var(--border);
+  padding-left: 1em;
+  margin: 1.4em 0;
+  background: #fdfdfd;
+}
+
+/* ---- Code ---- */
+code, pre {
+  font-family: "Roboto Mono", monospace;
+  font-size: 0.9em;
+  background: var(--code-bg);
+  border-radius: 4px;
+}
+pre {
+  padding: 0.9em 1em;
+  margin: 1em 0;
+  overflow-x: auto;
+  border: 1px solid var(--border);
+}
+code { padding: 0.2em 0.4em; }
+
+/* ---- Images ---- */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 1.2rem auto;
+}
+
+/* ---- Tables ---- */
+table {
+  border-collapse: collapse;
+  margin: 1rem 0;
+  width: 100%;
+  font-size: 0.95rem;
+}
+th, td {
+  border: 1px solid var(--border);
+  padding: 0.5rem 0.7rem;
+  vertical-align: top;
+}
+th {
+  background: #fafafa;
+  font-weight: 600;
+}
+
+/* ---- Links ---- */
+a {
+  color: var(--accent);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+a:hover { color: #9d5de1; }
+
+/* ---- Footer ---- */
+.footer {
+  color: var(--muted);
+  text-align: center;
+  font-size: 0.9rem;
+  margin-top: 3rem;
+}
+
+/* ---- Responsive ---- */
+@media (max-width: 768px) {
+  body, #main-block {
+    margin: 2rem auto;
+    padding: 0 1rem;
+  }
+}
+@media (max-width: 480px) {
+  body { font-size: 1em; }
+  body, #main-block {
+    margin: 1.5rem auto;
+    padding: 0 1rem;
+  }
+}
+
+/* --- Footer Home Link --- */
+.footer {
+  text-align: center;
+  margin-top: 3rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--border);
+}
+
+.footer .home-link {
+  color: var(--muted);
+  font-family: "EB Garamond", serif;
+  font-size: 0.95em;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.footer .home-link:hover {
+  color: var(--accent);
+}
