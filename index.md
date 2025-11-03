@@ -2,6 +2,8 @@
 ## Notes about computer science, electronics, fitness and else
 ### This page is just so that I can see if others can see
 
+This is a link to the first [post](https://deepak-venkatesh.github.io/posts/post1.html) on the blog.
+
 All text below this is from the github page on using [markdown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
 
 I am using pandoc and it is super simple. Just have a markdown file which I can edit in say vscode and a css.
