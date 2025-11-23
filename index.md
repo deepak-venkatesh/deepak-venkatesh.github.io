@@ -1,5 +1,5 @@
 ---
-title: Deepak's Notepad
+title: DV's Notebook
 description: Personal blog/notes on computing, mathematics, fitness and thoughtful simplicity.
 keywords: [computing, computer science, mathematics, electronics, running, blog]
 header-includes:
@@ -10,7 +10,7 @@ header-includes:
 ## Posts
 1. [The Schemer Simplified](https://deepak-venkatesh.github.io/posts/post1.html)
 
-2. [Investing Blog](https://peepalcapital.blogspot.com/)
+2. [Investing Blog](https://peepalcapital.blogspot.com/) _mostly inactive_
 
 3. Gelfand's Algebra (tbd)
 
