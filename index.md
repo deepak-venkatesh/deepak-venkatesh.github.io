@@ -1,5 +1,5 @@
 ---
-title: DV's Notebook
+title: A Shoshin's Notebook
 description: Personal blog/notes on computing, mathematics, fitness and thoughtful simplicity.
 keywords: [computing, computer science, mathematics, electronics, running, blog]
 header-includes:
