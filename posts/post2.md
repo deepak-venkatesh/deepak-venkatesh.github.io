@@ -5,6 +5,8 @@ keywords: [algebra, gelfand, mathematics, maths, solutions]
 header-includes:
   - <link rel="icon" type="image/x-icon" href="../favicon.ico">
 ---
+> _If you ask a drunkard what number is larger, 1/3 or 2/7, he might not be able to tell you. But if you rephrase the question: What is better, 2 bottles of vodka for 6 people, or 2 bottles of vodka for 7 people, he will tell you right away._ - Gelfand
+
 ## Background
 The legendary Soviet/Russian mathematician I.M.Gelfand ran a series of lectures for many decades back in the Soviet times. Later when he immigrated to the United States of America he started a correspondence program for eager math students. 
 
