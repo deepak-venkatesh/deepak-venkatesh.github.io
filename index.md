@@ -1,5 +1,5 @@
 ---
-title: A Shoshin's Notebook
+title: Notebook
 description: Personal blog/notes on computing, mathematics, fitness and thoughtful simplicity.
 keywords: [computing, computer science, mathematics, electronics, running, blog]
 header-includes:
