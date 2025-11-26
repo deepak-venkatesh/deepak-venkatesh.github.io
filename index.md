@@ -12,7 +12,7 @@ header-includes:
 
 2. [Investing Blog](https://peepalcapital.blogspot.com/) _mostly inactive_
 
-3. Gelfand's Algebra (tbd)
+3. [Gelfand's Algebra](https://deepak-venkatesh.github.io/posts/post2.html)
 
 4. Building a computer from the ground up (tbd)
 
