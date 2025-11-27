@@ -5,6 +5,11 @@ keywords: [Computer Architecture, First Principles, Logic Gates, Transistors, AL
 header-includes:
   - <link rel="icon" type="image/x-icon" href="../favicon.ico">
 ---
+
+<header class="header">
+  <a href="../index.html" class="home-link">← home</a>
+</header>
+
 > _What I hear, I forget; What I see, I remember; What I do, I Understand._ - Confucius
 
 
@@ -51,5 +56,5 @@ This will be the list of posts of every step in building this computer. I will b
 
 
 <footer class="footer">
-  <a href="../index.html" class="home-link">← back to home</a>
+  <a href="../index.html" class="home-link">← home</a>
 </footer>

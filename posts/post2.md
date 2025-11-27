@@ -5,6 +5,10 @@ keywords: [algebra, gelfand, mathematics, maths, solutions]
 header-includes:
   - <link rel="icon" type="image/x-icon" href="../favicon.ico">
 ---
+<header class="header">
+  <a href="../index.html" class="home-link">← home</a>
+</header>
+
 > _If you ask a drunkard what number is larger, 1/3 or 2/7, he might not be able to tell you. But if you rephrase the question: What is better, 2 bottles of vodka for 6 people, or 2 bottles of vodka for 7 people, he will tell you right away._ - Gelfand
 
 ## Background
@@ -45,5 +49,5 @@ Both the [PDF file](https://github.com/deepak-venkatesh/gelfand-algebra/raw/main
 
 
 <footer class="footer">
-  <a href="../index.html" class="home-link">← back to home</a>
+  <a href="../index.html" class="home-link">← home</a>
 </footer>

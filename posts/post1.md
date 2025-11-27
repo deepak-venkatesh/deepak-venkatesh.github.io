@@ -5,6 +5,9 @@ keywords: [computing, computer science, lisp, the little schemer, recursion, int
 header-includes:
   - <link rel="icon" type="image/x-icon" href="../favicon.ico">
 ---
+<header class="header">
+  <a href="../index.html" class="home-link">← home</a>
+</header>
 
 > _Programs must be written for people to read, and only incidentally for machines to execute_. - SICP
 
@@ -23,5 +26,5 @@ The GitHub repo contains: The notes in a PDF and a .tex file alongwith an .org f
 
 
 <footer class="footer">
-  <a href="../index.html" class="home-link">← back to home</a>
+  <a href="../index.html" class="home-link">← home</a>
 </footer>
