@@ -182,3 +182,12 @@ a:hover { color: #9d5de1; }
 .header .home-link:hover {
   color: var(--accent);
 }
+
+.responsive-img {
+  display: block;
+  margin: 0 auto;
+  max-width: 600px;     /* or 70%, or 30rem */
+  width: 100%;          /* responsive scaling */
+  height: auto;
+}
+
