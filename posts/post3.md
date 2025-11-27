@@ -36,17 +36,17 @@ I am inspired by a few projects online where an 8 bit computer is constructed on
 
 In this project, which I expect to last many months perhaps years I intend to build a computer in real hardware just like the Nand to Tetris book does but in a simulated environment. I honestly do not have the specifics as I type this at the start here but have two approaches in mind. First, use Integrated Circuits (ICs) such as SN7400 chips or the other being use NPN transistors such as 2N3904. With the ICs I can aim for an 8 bit computer maybe even a 16 bit computer that would be a real challenge but with the transistors a 4 bit computer is more realistic. Currently I am undecided. Second, I will build the computer exactly as mentioned in the Nand to Tetris book in software so my learning is complete.
 
-In Summary:
-1. Hardware:
-    - Option 1: Use Transistors NPN 2N3904 to build a 4 bit computer (realistic goal)
-    - Option 2: Use IC SN7400 to build an 8 bit computer (realistic goal)
+In Summary:\
+1. Hardware:\
+    - Option 1: Use Transistors NPN 2N3904 to build a 4 bit computer (realistic goal)\
+    - Option 2: Use IC SN7400 to build an 8 bit computer (realistic goal)\
 2. A 16 bit computer in a simulated software environment
 
 ## Progress
-This will be the list of posts of every step in building this computer. I will be updating this as and when I complete a section.
-1. Solid State Physics
-2. Transistors
-3. Logic Gates
+This will be the list of posts of every step in building this computer. I will be updating this as and when I complete a section.\
+1. Solid State Physics\
+2. Transistors\
+3. Logic Gates\
 
 
 
