@@ -1,5 +1,5 @@
 ---
-title: Building a Computer
+title: Particle Physics
 description: Building a Computer from the ground up
 keywords: [Particle Physics, Computer Architecture, First Principles, Logic Gates, Transistors, ALU, RAM, CPU, Memory, Machine Language, Assembly, Virtual Machine, High Level Language, Compiler, Interpreter, Nand to Tetris]
 header-includes:
