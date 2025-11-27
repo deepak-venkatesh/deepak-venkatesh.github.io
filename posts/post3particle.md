@@ -7,12 +7,12 @@ header-includes:
 ---
 
 <header class="header">
-  <a href="../index.html" class="home-link">← home</a>
+  <a href="./post3.html" class="home-link">← back</a>
 </header>
 
 WIP
 
 
 <footer class="footer">
-  <a href="../index.html" class="home-link">← home</a>
+  <a href="./post3.html" class="home-link">← back</a>
 </footer>
