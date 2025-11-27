@@ -45,7 +45,6 @@ In Summary:\
 1. Hardware:\
     - Option 1: Use Transistors NPN 2N3904 to build a 4 bit computer (realistic goal)\
     - Option 2: Use IC SN7400 to build an 8 bit computer (realistic goal)\
-
 2. A 16 bit computer in a simulated software environment
 
 ## Abstraction
