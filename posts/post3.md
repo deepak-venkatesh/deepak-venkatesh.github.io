@@ -52,7 +52,7 @@ The key principle with which I will be working with is that when I have built a 
 
 ## Progress
 This will be the list of posts of every step in building this computer. I will be updating this as and when I complete a section.\
-1. [Particle Physics](./post3particle.md)\ 
+1. [Particle Physics](./post3particle.md) \ 
 2. Solid State Physics\
 3. Transistors\
 4. Logic Gates\
