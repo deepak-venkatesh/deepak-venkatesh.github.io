@@ -39,7 +39,7 @@ I wanted to work through _Algebra_ by Gelfand and Shen, first published in Septe
 
 My solutions aims to provide correct approaches to all the 342 problems listed in _Algebra_. Each solution is carefully checked, either by hand (particularly for proofs) or programmatically using Scheme (a dialect of Lisp). LLMs have helped me in typing it out in LaTeX. All errors are my own, please report any issue on GitHub.
 
-The solutions are here in this [repository](https://github.com/deepak-venkatesh/gelfand-algebra).
+The solutions are here in this [repository](https://github.com/deepak-venkatesh/gelfand-algebra). It is still work in progress.
 
 Both the [PDF file](https://github.com/deepak-venkatesh/gelfand-algebra/raw/main/Algebra%20Solutions.pdf) as well as the .tex file are provided for use.
 

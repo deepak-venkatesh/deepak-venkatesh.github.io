@@ -14,7 +14,7 @@ header-includes:
 
 3. [Gelfand's Algebra](https://deepak-venkatesh.github.io/posts/post2.html)
 
-4. Building a computer from the ground up (tbd)
+4. [Building a Computer](https://deepak-venkatesh.github.io/posts/post3.html)
 
 
 

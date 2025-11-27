@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta name="keywords" content="Computer Architecture, First
+Principles, Logic Gates, Transistors, ALU, RAM, CPU, Memory, Machine
+Language, Assembly, Virtual Machine, High Level
+Language, Compiler, Interpreter, Nand to Tetris" />
+  <meta name="description" content="Building a Computer from the ground up" />
+  <title>Building a Computer</title>
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+  </style>
+  <link rel="stylesheet" href="../main.css" />
+  <link rel="icon" type="image/x-icon" href="../favicon.ico">
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">Building a Computer</h1>
+</header>
+<blockquote>
+<p><em>What I hear, I forget; What I see, I remember; What I do, I
+Understand.</em> - Confucius</p>
+</blockquote>
+<p>The most famous programming book ‘The C Programming Language’ by
+Kernighan and Ritchie starts with the following few lines.</p>
+<p>‘The only way to learn a bew programming language is by writing
+programs in it. The first program to write is the same for all
+languages: Print the words’</p>
+<pre><code>hello, world</code></pre>
+<p>‘This is the big hurdle, to leap over it you have to be able to
+create the program text somewhere, compile it successfully, load it, and
+find out where your output went. With these <em>mechanical details</em>
+mastered, everything else is comparatively easy.’</p>
+<p>‘In C, the program to print “hello, world” is’</p>
+<pre><code>#include &lt;stdio.h&gt;
+
+main ()
+{
+    printf(&quot;hello, world\n&quot;);
+}</code></pre>
+<h2 id="mechanical-details">Mechanical Details</h2>
+<p>What do Kernighan and Ritchie mean by <em>mechanical</em> details?
+What does a compiler do? How does it read the text in the C code above?
+Then how does it tell the CPU in the computer to print ‘hello, world’.
+How does the CPU execute these instructions? Where are the 0s and 1s?
+How are these binary states held? What science allows these binary
+states? ….. It is a rabbit hole.</p>
+<p>I am inspired by a few projects online where an 8 bit computer is
+constructed on breadboards but what really motivated me is the book ‘The
+Elements of Computing Systems’ (2nd ed.) by Noam Nisan and Shimon
+Schocken. They have wonderful content on their website called <a
+href="https://www.nand2tetris.org/">Nand to Tetris</a>.</p>
+<p>In this project, which I expect to last many months perhaps years I
+intend to build a computer in real hardware just like the Nand to Tetris
+book does but in a simulated environment. I honestly do not have the
+specifics as I type this at the start here but have two approaches in
+mind. First, use Integrated Circuits (ICs) such as SN7400 chips or the
+other being use NPN transistors such as 2N3904. With the ICs I can aim
+for an 8 bit computer maybe even a 16 bit computer that would be a real
+challenge but with the transistors a 4 bit computer is more realistic.
+Currently I am undecided. Second, I will build the computer exactly as
+mentioned in the Nand to Tetris book in software so my learning is
+complete.</p>
+<p>In Summary: 1. Hardware: - Option 1: Use Transistors NPN 2N3904 to
+build a 4 bit computer (realistic goal) - Option 2: Use IC SN7400 to
+build an 8 bit computer (realistic goal) 2. A 16 bit computer in a
+simulated software environment</p>
+<h2 id="progress">Progress</h2>
+<p>This will be the list of posts of every step in building this
+computer. I will be updating this as and when I complete a section. 1.
+Solid State Physics 2. Transistors 3. Logic Gates</p>
+<footer class="footer">
+<a href="../index.html" class="home-link">← back to home</a>
+</footer>
+</body>
+</html>
