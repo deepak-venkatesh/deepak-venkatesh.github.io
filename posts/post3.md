@@ -8,9 +8,9 @@ header-includes:
 > _What I hear, I forget; What I see, I remember; What I do, I Understand._ - Confucius
 
 
-The most famous programming book 'The C Programming Language' by Kernighan and Ritchie starts with the following few lines.
+One of the most famous programming books 'The C Programming Language' by Kernighan and Ritchie starts with the following few lines.
 
-'The only way to learn a bew programming language is by writing programs in it. The first program to write is the same for all languages: Print the words'
+'The only way to learn a new programming language is by writing programs in it. The first program to write is the same for all languages: Print the words'
 
 ```
 hello, world
@@ -30,7 +30,7 @@ main ()
 ```
 
 ## Mechanical Details
-What do Kernighan and Ritchie mean by _mechanical_ details? What does a compiler do? How does it read the text in the C code above? Then how does it tell the CPU in the computer to print 'hello, world'. How does the CPU execute these instructions? Where are the 0s and 1s? How are these binary states held? What science allows these binary states? ..... It is a rabbit hole.
+What do Kernighan and Ritchie mean by _mechanical_ details? What does a compiler do? How does it read the text in the C code above? Then how does it tell the CPU in the computer to print 'hello, world'. How does the CPU execute these instructions? Where are the 0s and 1s? How are these binary states held? What science allows these binary states? ..... It is a rabbit hole. The only way to learn what a computer is by building one.
 
 I am inspired by a few projects online where an 8 bit computer is constructed on breadboards but what really motivated me is the book 'The Elements of Computing Systems' (2nd ed.) by Noam Nisan and Shimon Schocken. They have wonderful content on their website called [Nand to Tetris](https://www.nand2tetris.org/). 
 
