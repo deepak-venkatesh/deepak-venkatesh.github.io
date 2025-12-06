@@ -35,11 +35,11 @@ main ()
 ```
 
 ## Mechanical Details
-What do Kernighan and Ritchie mean by _mechanical_ details? What does a compiler do? How does it read the text in the C code above? Then how does it tell the CPU in the computer to print 'hello, world'. How does the CPU execute these instructions? Where are the 0s and 1s? How are these binary states held? What science allows these binary states? ..... It is a rabbit hole. The only way to learn what a computer is by building one.
+What do Kernighan and Ritchie mean by _mechanical_ details? What does a compiler actually do? How does it read the text in the C code above? How does it instruct the CPU to print 'hello, world'. How does the CPU execute those instructions? Where are the 0s and 1s? How are these binary states stored? What physics makes these binary states possible? It is a rabbit hole. The only way to truly understand what a computer is - _is by building one._
 
-I am inspired by a few projects online where an 8 bit computer is constructed on breadboards but what really motivated me is the book 'The Elements of Computing Systems' (2nd ed.) by Noam Nisan and Shimon Schocken. They have wonderful content on their website called [Nand to Tetris](https://www.nand2tetris.org/). 
+I am inspired by a few projects online where an 8 bit computer is constructed on breadboards, but what really motivates me is the book 'The Elements of Computing Systems' (2nd ed.) by Noam Nisan and Shimon Schocken. They have wonderful content on their website called [Nand to Tetris](https://www.nand2tetris.org/). 
 
-In this project, which I expect to last many months perhaps years I intend to build a computer in real hardware just like the Nand to Tetris book does but in a simulated environment. I honestly do not have the specifics as I type this at the start here but have two approaches in mind. First, use Integrated Circuits (ICs) such as SN7400 chips or the other being use NPN transistors such as 2N3904. With the ICs I can aim for an 8 bit computer maybe even a 16 bit computer that would be a real challenge but with the transistors a 4 bit computer is more realistic. Currently I am undecided. Second, I will build the computer exactly as mentioned in the Nand to Tetris book in software so my learning is complete.
+In this project, which I expect to last many months, perhaps years I intend to build a computer in real hardware just like Nand to Tetris book does but they do in a simulated environment. I honestly do not have all the specifics as I type this at the start but have two approaches in mind. First, use Integrated Circuits (ICs) such as SN7400 chips, and the other being use NPN transistors such as 2N3904. With the ICs I can aim for an 8 bit computer maybe even a 16 bit computer, which would be a real challenge, but with the transistors a 4 bit computer is more realistic. Currently I am undecided. Second, I will build the computer exactly as mentioned in the Nand to Tetris book in software so my learning is complete.
 
 In Summary:\
 1. Hardware:\
@@ -48,10 +48,10 @@ In Summary:\
 2. A 16 bit computer in a simulated software environment
 
 ## Abstraction
-The key principle with which I will be working with is that when I have built a certain piece of hardware and move on to the next step I will not focus on how the layer beneath works. I would have extracted away that underlying layer. It is valid even for theoretical physics concepts where we hold some axioms as true and work with that. 
+The key principle with which I will be working with is that when I have built a certain piece of hardware and moved on to the next step I will not focus on how the layer beneath works. I would have extracted away that underlying layer. It is valid even for theoretical physics concepts where we hold some axioms as true and work with that. 
 
 ## Progress
-This will be the list of posts of every step in building this computer. I will be updating this as and when I complete a section.
+I will use this blog post to publish every step of building this computer. As I complete each section, I will update this post:
 
 1. [Particle Physics](./post3particle.html)
 
