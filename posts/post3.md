@@ -55,7 +55,7 @@ I will use this blog post to publish every step of building this computer. As I 
 
 1. [Particle Physics](./post3particle.html)
 
-2. Solid State Physics
+2. [Solid State Physics](./post4solidstate.html)
 
 3. Transistors
 
