@@ -1,18 +1,32 @@
+/* ------------------------------------------------------
+   GLOBAL FIX TO PREVENT MOBILE OVERFLOW
+------------------------------------------------------ */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* ------------------------------------------------------
+   VARIABLES
+------------------------------------------------------ */
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;600&family=Roboto+Mono&display=swap');
 
 :root {
-  --text: #222;           /* rich graphite text */
-  --muted: #555;          /* secondary text tone */
-  --bg: #ffffff;          /* clean white background */
-  --accent: #6b3fa0;      /* subtle violet accent */
-  --code-bg: #f9f9f9;     /* light gray for code */
+  --text: #222;
+  --muted: #555;
+  --bg: #ffffff;
+  --accent: #6b3fa0;
+  --code-bg: #f9f9f9;
   --border: #e8e8e8;
-  --measure: 65ch;        /* comfortable reading width */
+  --measure: 65ch;
   --lh: 1.6;
   --space: 1.1rem;
 }
 
-/* ---- Base ---- */
+/* ------------------------------------------------------
+   BASE
+------------------------------------------------------ */
 html, body {
   margin: 0;
   padding: 0;
@@ -30,19 +44,18 @@ html {
   scroll-behavior: smooth;
 }
 
-/* ---- Layout ---- */
-body {
-  padding: 0 1rem; /* small universal padding so that text never touches the edges */
-}
-
-
-#main-block {
+/* ------------------------------------------------------
+   LAYOUT (CENTERED COLUMN)
+------------------------------------------------------ */
+body, #main-block {
   max-width: var(--measure);
   margin: 3rem auto;
-  padding: 0 1.5rem;
+  padding: 0 1.5rem;   /* keeps spacing on the sides */
 }
 
-/* ---- Headings ---- */
+/* ------------------------------------------------------
+   HEADINGS
+------------------------------------------------------ */
 h1, h2, h3, h4 {
   font-family: "EB Garamond", "Times New Roman", serif;
   color: var(--text);
@@ -50,6 +63,7 @@ h1, h2, h3, h4 {
   margin-top: 2.5rem;
   margin-bottom: 0.8rem;
 }
+
 h1 {
   text-align: center;
   margin-top: 0;
@@ -57,7 +71,9 @@ h1 {
   letter-spacing: 0.3px;
 }
 
-/* ---- Paragraphs ---- */
+/* ------------------------------------------------------
+   PARAGRAPHS
+------------------------------------------------------ */
 p, .verse {
   margin: 0 0 var(--space);
   text-align: justify;
@@ -67,7 +83,9 @@ p, .verse {
   font-size: 1.1em;
 }
 
-/* ---- Blockquote ---- */
+/* ------------------------------------------------------
+   BLOCKQUOTES
+------------------------------------------------------ */
 blockquote {
   font-size: 1.05em;
   color: var(--muted);
@@ -77,22 +95,30 @@ blockquote {
   background: #fdfdfd;
 }
 
-/* ---- Code ---- */
+/* ------------------------------------------------------
+   CODE
+------------------------------------------------------ */
 code, pre {
   font-family: "Roboto Mono", monospace;
   font-size: 0.9em;
   background: var(--code-bg);
   border-radius: 4px;
 }
+
 pre {
   padding: 0.9em 1em;
   margin: 1em 0;
   overflow-x: auto;
   border: 1px solid var(--border);
 }
-code { padding: 0.2em 0.4em; }
 
-/* ---- Images ---- */
+code {
+  padding: 0.2em 0.4em;
+}
+
+/* ------------------------------------------------------
+   IMAGES
+------------------------------------------------------ */
 img {
   max-width: 100%;
   height: auto;
@@ -100,64 +126,58 @@ img {
   margin: 1.2rem auto;
 }
 
-/* ---- Tables ---- */
+.responsive-img {
+  display: block;
+  margin: 0 auto;
+  max-width: 600px;
+  width: 100%;
+  height: auto;
+}
+
+/* ------------------------------------------------------
+   TABLES
+------------------------------------------------------ */
 table {
   border-collapse: collapse;
   margin: 1rem 0;
   width: 100%;
   font-size: 0.95rem;
 }
+
 th, td {
   border: 1px solid var(--border);
   padding: 0.5rem 0.7rem;
   vertical-align: top;
 }
+
 th {
   background: #fafafa;
   font-weight: 600;
 }
 
-/* ---- Links ---- */
+/* ------------------------------------------------------
+   LINKS
+------------------------------------------------------ */
 a {
   color: var(--accent);
   text-decoration: none;
   transition: color 0.2s ease;
 }
-a:hover { color: #9d5de1; }
 
-/* ---- Footer ---- */
-.footer {
-  color: var(--muted);
-  text-align: center;
-  font-size: 0.9rem;
-  margin-top: 3rem;
+a:hover {
+  color: #9d5de1;
 }
 
-/* ---- Responsive ---- */
-@media (max-width: 768px) {
-  body { padding: 0 1rem; }
-  #main-block {
-    margin: 2rem auto;
-    padding: 0 1rem;
-  }
-}
-@media (max-width: 480px) {
-  body {
-    font-size: 1em;
-    padding: 0 1rem;  /* prevents edge contact */
-}
-  #main-block {
-    margin: 1.5rem auto;
-    padding: 0 1rem;
-  }
-}
-
-/* --- Footer Home Link --- */
+/* ------------------------------------------------------
+   FOOTER
+------------------------------------------------------ */
 .footer {
   text-align: center;
   margin-top: 3rem;
   padding-top: 1rem;
   border-top: 1px solid var(--border);
+  color: var(--muted);
+  font-size: 0.9rem;
 }
 
 .footer .home-link {
@@ -172,7 +192,9 @@ a:hover { color: #9d5de1; }
   color: var(--accent);
 }
 
-/* --- Header Home Link --- */
+/* ------------------------------------------------------
+   HEADER
+------------------------------------------------------ */
 .header {
   text-align: center;
   margin-bottom: 2rem;
@@ -183,7 +205,7 @@ a:hover { color: #9d5de1; }
 .header .home-link {
   color: var(--muted);
   font-family: "EB Garamond", serif;
-  font-size: 0.80em;     /* slightly smaller than body text */
+  font-size: 0.80em;
   text-decoration: none;
   transition: color 0.2s ease;
 }
@@ -192,11 +214,22 @@ a:hover { color: #9d5de1; }
   color: var(--accent);
 }
 
-.responsive-img {
-  display: block;
-  margin: 0 auto;
-  max-width: 600px;     /* or 70%, or 30rem */
-  width: 100%;          /* responsive scaling */
-  height: auto;
+/* ------------------------------------------------------
+   RESPONSIVE ADJUSTMENTS
+------------------------------------------------------ */
+@media (max-width: 768px) {
+  body, #main-block {
+    margin: 2rem auto;
+    padding: 0 1rem;
+  }
 }
 
+@media (max-width: 480px) {
+  body {
+    font-size: 1em;
+  }
+  body, #main-block {
+    margin: 1.5rem auto;
+    padding: 0 1rem;
+  }
+}
