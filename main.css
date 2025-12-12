@@ -31,6 +31,11 @@ html {
 }
 
 /* ---- Layout ---- */
+body {
+  padding: 0 1rem; /* small universal padding so that text never touches the edges */
+}
+
+
 #main-block {
   max-width: var(--measure);
   margin: 3rem auto;
@@ -130,13 +135,17 @@ a:hover { color: #9d5de1; }
 
 /* ---- Responsive ---- */
 @media (max-width: 768px) {
+  body { padding: 0 1rem; }
   #main-block {
     margin: 2rem auto;
     padding: 0 1rem;
   }
 }
 @media (max-width: 480px) {
-  body { font-size: 1em; }
+  body {
+    font-size: 1em;
+    padding: 0 1rem;  /* prevents edge contact */
+}
   #main-block {
     margin: 1.5rem auto;
     padding: 0 1rem;
