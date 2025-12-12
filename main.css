@@ -16,8 +16,7 @@
 html, body {
   margin: 0;
   padding: 0;
-  /* width: 100%; */
-  /* overflow-x: hidden; */
+  width: 100%;
   background: var(--bg);
   color: var(--text);
   font-family: "EB Garamond", Georgia, "Times New Roman", serif;
@@ -32,7 +31,7 @@ html {
 }
 
 /* ---- Layout ---- */
-body, #main-block {
+#main-block {
   max-width: var(--measure);
   margin: 3rem auto;
   padding: 0 1.5rem;
@@ -131,14 +130,14 @@ a:hover { color: #9d5de1; }
 
 /* ---- Responsive ---- */
 @media (max-width: 768px) {
-  body, #main-block {
+  #main-block {
     margin: 2rem auto;
     padding: 0 1rem;
   }
 }
 @media (max-width: 480px) {
   body { font-size: 1em; }
-  body, #main-block {
+  #main-block {
     margin: 1.5rem auto;
     padding: 0 1rem;
   }
