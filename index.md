@@ -15,6 +15,8 @@ header-includes:
 3. [Gelfand's Algebra](https://deepak-venkatesh.github.io/posts/post2.html)
 
 4. [Building a Computer](https://deepak-venkatesh.github.io/posts/post3.html)
+- [Particle Physics](https://deepak-venkatesh.github.io/posts/post3particle.html)
+- [Solid State Physics](https://deepak-venkatesh.github.io/posts/post4solidstate.html)
 
 4. [All You Who Sleep Tonight](https://deepak-venkatesh.github.io/posts/post5.html)
 
