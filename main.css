@@ -1,4 +1,10 @@
 /* ------------------------------------------------------
+   VARIABLES
+------------------------------------------------------ */
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;600&family=Roboto+Mono&display=swap');
+
+
+/* ------------------------------------------------------
    GLOBAL FIX TO PREVENT MOBILE OVERFLOW
 ------------------------------------------------------ */
 *,
@@ -6,11 +12,6 @@
 *::after {
   box-sizing: border-box;
 }
-
-/* ------------------------------------------------------
-   VARIABLES
------------------------------------------------------- */
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;600&family=Roboto+Mono&display=swap');
 
 :root {
   --text: #222;
