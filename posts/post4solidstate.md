@@ -34,7 +34,7 @@ There is another class of elements in the periodic table called semi-conductors.
 
 
 ### Electron Volt (eV)
-I wanted to visualize how much energy is 1eV. The technical definition is the amount of kinetic energy a single electron gains when it passes in vacuum through an electric potential difference of 1 Volt. In terms of Joules it is very small $1.602 x 10^-19$ Joules. To make a comparison a 10 watt bulb sold in a store utilizes around 10 Joules of energy per second.
+I wanted to visualize how much energy is 1eV. The technical definition is the amount of kinetic energy a single electron gains when it passes in vacuum through an electric potential difference of 1 Volt. In terms of Joules it is very small $1.602 * 10^-19$ Joules. To make a comparison a 10 watt bulb sold in a store utilizes around 10 Joules of energy per second.
 Meaning 1 eV is the energy consumed by a 10 W bulb in a miniscule $10^-20$ seconds.
 
 ## Holes and Electrons
