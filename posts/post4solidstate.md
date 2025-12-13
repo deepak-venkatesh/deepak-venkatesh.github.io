@@ -74,6 +74,18 @@ Thus a PN Junction works like a valve, a diode.
 ## Experiment
 I have built this very basic circuit on a breadboard to show how a diode (representing a PN Junction) allows current to flow only in one direction.
 
+![](../assets/PNJunctionCircuit.png){.responsive-img}
+<center> <small> Circuit Diagram</small> </center>
+
+![](../assets/Diode.jpeg){.responsive-img}
+<center> <small> Implementation on breadboard</small> </center>
+
+![](../assets/Diode_Forward.jpeg){.responsive-img}
+<center> <small> Forward Bias with a 2.44 mA current flowing</small> </center>
+
+![](../assets/Diode_Reverse.jpeg){.responsive-img}
+<center> <small> Reverse Bias with no current flowing</small> </center>
+
 
 <footer class="footer">
   <a href="./post3.html" class="home-link">← back</a>
