@@ -57,7 +57,7 @@ I will use this blog post to publish every step of building this computer. As I 
 
 2. [Solid State Physics](./post4solidstate.html)
 
-3. Transistors
+3. [Transistors](./post5transistors.html)
 
 4. Logic Gates
 
