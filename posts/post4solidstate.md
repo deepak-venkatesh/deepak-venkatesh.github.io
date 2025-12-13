@@ -71,7 +71,8 @@ Thus a PN Junction works like a valve, a diode.
 ![](../assets/PN_diode.png){.responsive-img}
 <center> <small> PN Diode (Wikipedia)</small> </center>
 
-
+## Experiment
+I have built this very basic circuit on a breadboard to show how a diode (representing a PN Junction) allows current to flow only in one direction.
 
 
 <footer class="footer">
