@@ -35,7 +35,7 @@ The transistor works as a switch in principle. When no potential difference is a
 
 But when a small voltage is applied to the base terminal (approximately 0.6V to 0.7V) the transistor switches to an active mode. There is an injection of electrons from the emitter to the base and these move on (technically called diffusing) into the collector. The circuit diagram for the active mode is shown below
 
-![](../assets/NPNactive.png){.responsive-img}
+![](../assets/NPNActive.png){.responsive-img}
 <center> <small>NPN BJT in Active mode (Wikipedia)</small> </center>
 
 From the band diagram we can see the energy levels and the diffusion of electrons. The mental model here is that a small voltage to the base causes the depletion region at the two PN Junctions to shrink thus allowing conduction to begin. This threshold voltage is 0.6V to 0.7V. Thus, an NPN BJT acts as a switch for electrons to be emitted from emitter to the collector or in other words current to flow from collector to emitter. We also say that a small base current leads to amplification of the collector-emitter current flow which is much larger in value.
