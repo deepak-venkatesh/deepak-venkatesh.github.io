@@ -4,8 +4,8 @@
   <meta charset="utf-8" />
   <meta name="generator" content="pandoc" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
-  <meta name="keywords" content="Transistors, Solid State
-Physics, Silicon, N-Type, P-Type, Doping, Band Structure, PN
+  <meta name="keywords" content="Transistors, PNP transistor, BJT, Solid
+State Physics, Silicon, N-Type, P-Type, Doping, Band Structure, PN
 Junction, Computer Architecture, First Principles, Logic
 Gates, Transistors, ALU, RAM, CPU, Memory, Machine
 Language, Assembly, Virtual Machine, High Level
@@ -45,9 +45,42 @@ Language, Compiler, Interpreter, Nand to Tetris" />
 <p><em>The invention of the transistor may be the most important
 invention of the 20th century.</em> - Gordon Moore</p>
 </blockquote>
-<p>The Bipolar Junction Transistor was invented in 1948 while the point
-contact transistor was invented in 1947. All these happened at Bell
-Labs.</p>
+<p>The Bipolar Junction Transistor (BJT) was invented in 1948 while the
+point contact transistor was invented in 1947. All these inventions
+happened at Bell Labs. Since the focus is to build a computer probably
+the only type of transistor which will be used is the BJT NPN
+transistor.</p>
+<h2 id="npn-bipolar-junction-transistor">NPN Bipolar Junction
+Transistor</h2>
+<p>As the name suggests this type of transistor has a P-type doped
+silicon semiconductor sandwiched between two N-type doped silicon. It is
+referred to as bipolar because there are two PN Junctions in this
+device.</p>
+<img src="../assets/NPNBJT.png" class="responsive-img" />
+<center>
+<small>Simplified cross-section of an NPN BJT (Wikipedia)</small>
+</center>
+<h3 id="construction-of-npn-bjt">Construction of NPN BJT</h3>
+<p>There are three terminals in an NPN BJT, each connecting to the N, P,
+and N. They are called Emitter, Base, and Collector. The middle P-type
+is called the base. The base is very thin and extremely lightly doped of
+P-type. The collector is physically the largest part of the NPN BJT, it
+surrounds the entire transistor as shown in the simplified schematic
+below. It is called collector because it makes sure that the electrons
+which enter the base cannot escape without being collected. The emitter
+is heavily doped but smaller in physical dimension. The heavily doped
+emitter increases the emitter injection efficiency which is the ratio of
+carriers injected by emitter to those injected by the base.</p>
+<img src="../assets/NPN_cross-section.png" class="responsive-img" />
+<center>
+<small>Simplified cross-section of an NPN BJT (Wikipedia)</small>
+</center>
+<h2 id="the-pnp-bjt-switch">The PNP BJT Switch</h2>
+<p>The transistor works as a switch in principle. When no potential
+difference is applied the the two PN Junctions are in equilibrium and
+there is a large depletion zone where there is no conduction. The
+depletion zones are wide and there is no movement of electrons or
+holes.</p>
 <footer class="footer">
 <a href="./post3.html" class="home-link">← back</a>
 </footer>
