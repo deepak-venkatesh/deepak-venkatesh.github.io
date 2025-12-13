@@ -1,7 +1,7 @@
 ---
 title: Solid State Physics
 description: Building a Computer from the ground up
-keywords: [Solid State Physics, Computer Architecture, First Principles, Logic Gates, Transistors, ALU, RAM, CPU, Memory, Machine Language, Assembly, Virtual Machine, High Level Language, Compiler, Interpreter, Nand to Tetris]
+keywords: [Solid State Physics, Silicon, N-Type, P-Type, Doping, Band Structure, PN Junction, Computer Architecture, First Principles, Logic Gates, Transistors, ALU, RAM, CPU, Memory, Machine Language, Assembly, Virtual Machine, High Level Language, Compiler, Interpreter, Nand to Tetris]
 header-includes:
   - <link rel="icon" type="image/x-icon" href="../favicon.ico">
 ---
@@ -52,6 +52,26 @@ The other mental model which is used to understand semiconductors. Electrons ten
 <center> <small> Band Structure Representation (Wikipedia)</small> </center>
 
 ## PN Junction
+As the name implies PN Junction is the boundary of the surface where a P-type doped silicon touches N-type doped silicon. The N-type has many free electrons whereas the P-type has many holes. By just diffusing the two doped surfaces a depletion region emerges at the junction. There is no electricity yet but electrons move from the N-type to the P-type whereas holes diffuse from the P-type to the N-type. It is essentially movement from high concentration to low concentration. As a result the electrons which moved into the P-type now recombine with the holes and they disappear as mobile carriers. The same phenomena happens in the N-type side also. This depletion region towards the N-side has lost electrons so its effectively remains with positive donor ions. The P-side of the depletion region is left with negative acceptor ions.
+
+Now since we have positive and negative ions in the depletion region an electric field is created. This electric field pushes the electrons back on N-side and pushes the holes on the P-side. We have a state of equilibrium, a status quo, where the electric field force is equal to the diffusion force of the electrons and holes. So far no external energy is applied in terms of a voltage difference.
+
+If electrons on the N-side get an energy push of some quantity they will hop onto the depletion region and move towards into the P-side. The quantity of energy is called the barrier voltage and it is 0.6 Volts for silicon.
+
+![](../assets/junction-equilibrium.png){.responsive-img}
+<center> <small> Equilibrium at the PN Junction Depletion Region (Wikipedia)</small> </center>
+
+### Forward and Reverse Bias
+When the P-side is given a positive voltage while the N-side has negative voltage then the electrons on N-side get very attracted and move towards the junction, cross the barrier and recombine on the other side. Similarly holes are pushed away from the P-side. Current starts flowing since depletion region is narrowed. This is called Forward Bias.
+
+In Negative Bias/Reverse Bias the opposite happens resulting in increasing size of the depletion region. The electrons on N-side basically get attracted to positive voltage and the holes on the P-side get attracted towards the negative voltage. No Current flows through effectively.
+
+Thus a PN Junction works like a valve, a diode.
+
+![](../assets/PN_diode.png){.responsive-img}
+<center> <small> PN Diode (Wikipedia)</small> </center>
+
+
 
 
 <footer class="footer">
