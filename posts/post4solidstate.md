@@ -38,12 +38,18 @@ I wanted to visualize how much energy is 1eV. The technical definition is the am
 Meaning 1 eV is the energy consumed by a 10 W bulb in a miniscule $10^-20$ seconds.
 
 ## Holes and Electrons
-When an 'impurity' such as Phosphorus is added to Silicon the conductivity property of this composite material changes. Phosphorus had 5 valence electrons. So 4 electrons of Phosphorus are shared by its neighboring Silicon atoms but that excess one electron does not form a covalent bond with its neighbors. It 'floats freely' thus triggers electric current. Although there is an excess electron in this doped silicon lattice its overall charge is neutral because the Phosphorus nucleus would have the appropriate proton number. Since there is excess of electrons 'floating' around it is called N type semiconductor. 
+When an 'impurity' such as Phosphorus is added to Silicon the conductivity property of this composite material changes. Phosphorus had 5 valence electrons. So 4 electrons of Phosphorus are shared by its neighboring Silicon atoms but that excess one electron does not form a covalent bond with its neighbors. It 'floats freely' thus triggers electric current. Although there is an excess electron in this doped silicon lattice its overall charge is neutral because the Phosphorus nucleus would have the appropriate proton number. Since there is excess of electrons 'floating' around it is called N-type semiconductor. 
 
-Now instead of Phosphorus if we add Boron which has 3 electrons in its valence shell then we have an empty spot essentially. An electron from a neighboring silicon atom can now move into this vacant spot, when it does so it leaves a hole behind. Now another electron can move into this new spot. So we get a chain of movement of holes which is in the opposite direction of the electrons. Since this is notionally positive we call it P type semiconductor. 
+Now instead of Phosphorus if we add Boron which has 3 electrons in its valence shell then we have an empty spot essentially. An electron from a neighboring silicon atom can now move into this vacant spot, when it does so it leaves a hole behind. Now another electron can move into this new spot. So we get a chain of movement of holes which is in the opposite direction of the electrons. Since this is notionally positive we call it P-type semiconductor. 
+
+![](../assets/silicon_doping.png){.responsive-img}
+<center> <small>Pure Silicon, P-Type doped with Boron, N-Type doped with Antimony (Wikipedia)</small> </center>
 
 ## Energy Band Model
 The other mental model which is used to understand semiconductors. Electrons tend to settle down in lower energy states, as per this model in lower energy bands. The higher energy bands remain vacant. So we have the valence band which is filled with electrons and then a band gap and a conduction band which is empty. Electrons need to move from this valence band through this band gap to the conduction band to start conducting energy. To get the electron moving we need to provide a bit of energy so it moves up which is basically the same as getting it over a certain hurdle to either leave behind a hole and get going. The energy required for silicon is just 1.12 eV. Thats very very small. This model is essential for actually doing computations and conducting measurements.
+
+![](../assets/band_structure.png){.responsive-img}
+<center> <small> Band Structure Representation (Wikipedia)</small> </center>
 
 ## PN Junction
 
