@@ -44,7 +44,16 @@ From the band diagram we can see the energy levels and the diffusion of electron
 <center> <small>NPN Band Diagram in Active Mode (Wikipedia)</small> </center>
 
 ## Experiment
-I have built this very basic circuit on a breadboard to show how an NPN BJT can act as a switch.
+I have built this very basic circuit on a breadboard to show how an NPN BJT can act as a switch. This is where we see for the first time where we get our 0s and 1s from! We have gone all the way from the lepton, the electron to generating a binary signal. 
+
+![](../assets/NPN_switch.png){.responsive-img}
+<center> <small>Transistor acting as a switch</small> </center>
+
+![](../assets/NPN_switch_off.jpeg){.responsive-img}
+<center> <small>The binary state of 0 using a transistor</small> </center>
+
+![](../assets/NPN_switch_on.jpeg){.responsive-img}
+<center> <small>The binary state of 1 using a transistor</small> </center>
 
 
 
