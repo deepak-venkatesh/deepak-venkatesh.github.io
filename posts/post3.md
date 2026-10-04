@@ -59,7 +59,7 @@ I will use this blog post to publish every step of building this computer. As I 
 
 3. [Transistors](./post5transistors.html)
 
-4. Logic Gates
+4. [Logic Gates](./post6logicgates.html)
 
 
 _Last Updated: Feb 2026_

@@ -18,6 +18,16 @@ I am using pandoc and it is super simple. Just have a markdown file which I can 
 The website url will be this for the time [being](https://deepak-venkatesh.github.io/).
 This is made into an html via this command in the terminal.
 
+Actual codes of pandoc used regularly
+
+```
+For index.md
+pandoc -f markdown+yaml_metadata_block -s index.md -c main.css --mathjax -o index.html
+
+For posts: change post1 to whatever the post number for instance post11
+pandoc -s posts/post1.md -c ../main.css --mathjax -o posts/post1.html
+```
+
 ```
 pandoc -s index.md -c main.css --mathjax -o index.html
 ```
