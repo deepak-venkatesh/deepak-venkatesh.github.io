@@ -32,18 +32,22 @@ Book list is below. The first four were the order in which students were taught 
 
 5. _Functions and Graphs_ by Gelfand, Glagolevam, and Shenol
 
-6. _Sequences, Combinations, Limits_ by Gelfand, Gerver, Kirillov, Konstantinov, and Kushnirenko
+6. _Sequences, Combinations, Limits_ by Gelfand (son of IM Gelfand), Gerver, Kirillov, Konstantinov, and Kushnirenko
 
 7. _Lectures on Linear Algebra_ by Gelfand
 
-I would have hoped he wrote a book on Calculus for the school student but unfortunately what I read was that it was in the works but never made it. He did write a book on Calculus of Variations but that would perhaps be out of scope for the school student. In the list above the first four are the core curriculum and the last three are for the preparation for Calculus I would say.
+8. _Geometry_ by Gelfand and Gelfand (wife of IM Gelfand)
+
+I would have hoped he wrote a book on Calculus for the school student but unfortunately what I read was that it was in the works but never made it. He did write a book on Calculus of Variations but that would perhaps be out of scope for the school student. In the list above the first four are the core curriculum and the last three are for the preparation for Calculus I would say. _Geometry_ was published posthumously by his spouse Tatiana in 2020. This book gives historical information in the Preface about the books written and which were in the works.
 
 ## Solutions to Algebra
-I wanted to work through _Algebra_ by Gelfand and Shen, first published in September 1993. It is a 150 page book covering 72 topics related to school level algebra. The book presents 342 problems some with solutions, and others without. I have curated a list of problems from this book for teaching students which I do as a hobby.
+I wanted to work through _Algebra_ by Gelfand and Shen, first published in September 1993. It is a 150 page book covering 72 topics related to middle and high school level algebra. The book presents 342 problems some with solutions, and others without. I have curated a list of problems from this book for teaching students which I do as a hobby.
 
-My solutions aims to provide correct approaches to all the 342 problems listed in _Algebra_. Each solution is carefully checked, either by hand (particularly for proofs) or programmatically using Scheme (a dialect of Lisp). LLMs have helped me in typing it out in LaTeX. All errors are my own, please report any issue on GitHub.
+My solutions aims to provide correct approaches to all the 342 problems listed in _Algebra_. Each solution is carefully checked, either by hand (particularly for proofs) or programmatically using Scheme (a dialect of Lisp) or Python. LLMs have helped me answer my LaTeX queries. All errors are my own, please report any issue on GitHub.
 
-The solutions are here in this [repository](https://github.com/deepak-venkatesh/gelfand-algebra). It is still work in progress.
+I did share my solutions with the co-author Professor Alexander Shen based in France. I was pleasantly surprised to receive very positive response and encouragement and guidance to continue teaching kids. I have acted on his suggestion and am working through a book by Alexander Zvonkin.
+
+The solutions are here in this [repository](https://github.com/deepak-venkatesh/gelfand-algebra). It has been completed as on 1st of September 2026.
 
 Both the [PDF file](https://github.com/deepak-venkatesh/gelfand-algebra/raw/main/Algebra%20Solutions.pdf) as well as the .tex file are provided for use.
 
