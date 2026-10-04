@@ -27,7 +27,7 @@ There are three terminals in an NPN BJT, each connecting to the N, P, and N. The
 ![](../assets/NPN_cross-section.png){.responsive-img}
 <center> <small>Simplified cross-section of an NPN BJT (Wikipedia)</small> </center>
 
-## The PNP BJT Switch
+## The NPN BJT Switch
 The transistor works as a switch in principle. When no potential difference is applied the two PN Junctions are in equilibrium and there is a large depletion zone where there is no conduction. The depletion zones are wide and there is no movement of electrons or holes.
 
 ![](../assets/NPN_Band_Equilibrium.png){.responsive-img}
