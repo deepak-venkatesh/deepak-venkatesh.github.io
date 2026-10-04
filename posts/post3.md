@@ -62,7 +62,7 @@ I will use this blog post to publish every step of building this computer. As I 
 4. Logic Gates
 
 
-
+_Last Updated: Feb 2026_
 <footer class="footer">
   <a href="../index.html" class="home-link">← home</a>
 </footer>

@@ -234,3 +234,36 @@ a:hover {
     padding: 0 1rem;
   }
 }
+
+/* ------------------------------------------------------
+   VIDEOS
+------------------------------------------------------ */
+.video-container {
+  width: 100%;
+  margin: 1.5rem auto;
+}
+
+.video-container iframe {
+  display: block;
+  width: 100%;
+  border: 0;
+  border-radius: 8px;
+}
+
+/* Normal YouTube videos */
+.video-landscape {
+  max-width: 100%;
+}
+
+.video-landscape iframe {
+  aspect-ratio: 16 / 9;
+}
+
+/* YouTube Shorts / portrait videos */
+.video-portrait {
+  max-width: 400px;
+}
+
+.video-portrait iframe {
+  aspect-ratio: 9 / 16;
+}

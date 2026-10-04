@@ -56,6 +56,7 @@ I have built this very basic circuit on a breadboard to show how an NPN BJT can 
 <center> <small>The binary state of 1 using a transistor</small> </center>
 
 
+_Last Updated: 3 Oct 2026_
 
 <footer class="footer">
   <a href="./post3.html" class="home-link">← back</a>

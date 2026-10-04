@@ -87,6 +87,8 @@ I have built this very basic circuit on a breadboard to show how a diode (repres
 <center> <small> Reverse Bias with no current flowing</small> </center>
 
 
+_Last Updated: Feb 2026_
+
 <footer class="footer">
   <a href="./post3.html" class="home-link">← back</a>
 </footer>

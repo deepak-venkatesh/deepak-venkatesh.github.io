@@ -51,7 +51,7 @@ The solutions are here in this [repository](https://github.com/deepak-venkatesh/
 
 Both the [PDF file](https://github.com/deepak-venkatesh/gelfand-algebra/raw/main/Algebra%20Solutions.pdf) as well as the .tex file are provided for use.
 
-
+_Last Updated: 3 Oct 2026_
 <footer class="footer">
   <a href="../index.html" class="home-link">← home</a>
 </footer>

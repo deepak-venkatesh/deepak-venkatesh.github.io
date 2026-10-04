@@ -24,6 +24,7 @@ The GitHub repo contains: The notes in a PDF and a .tex file alongwith an .org f
 🔗 GitHub Repository is [here](https://github.com/deepak-venkatesh/schemer-simplified)
 
 
+_Last Updated: Nov 2025_
 
 <footer class="footer">
   <a href="../index.html" class="home-link">← home</a>

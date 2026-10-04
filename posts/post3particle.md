@@ -34,6 +34,18 @@ Electric charge is an outcome of the changes in symmetry of electric fields of e
 ## Experiment
 I have been doing a project with my daughter where we are trying to capture on video muons, alpha rays, and electrons in a cloud chamber. This is work in progress. I intend to capture cosmic rays too. Earlier I was building an electron gun in a glass vacuum chamber which would be influenced by an electromagnetic field but I do not want to continue that experiment because of safety concerns for my family and myself.
 
+In the meantime we did get to see a Cloud Chamber in action in March 2026 and again in April 2026. In March we saw it at the Pacific Science Center in Seattle and in April we saw it at Exploratorium in San Francisco. Here is a video where my daughter explains what a Cloud Chamber is at Pacific Science Center.
+
+<div class="video-container video-portrait">
+  <iframe
+    src="https://www.youtube.com/embed/If-L2IzboXA"
+    title="Cloud Chamber at Pacific Science Center"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen>
+  </iframe>
+</div>
+
+_Last Updated: 4 Oct 2026_
 
 <footer class="footer">
   <a href="./post3.html" class="home-link">← back</a>
