@@ -12,7 +12,7 @@ Gates, Transistors, ALU, RAM, CPU, Memory, Machine
 Language, Assembly, Virtual Machine, High Level
 Language, Compiler, Interpreter, Nand to Tetris" />
   <meta name="description" content="Building a Computer from the ground up" />
-  <title>Logic Gates</title>
+  <title>Combinational Logic Gates</title>
   <style>
     /* Default styles provided by pandoc.
     ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -37,7 +37,7 @@ Language, Compiler, Interpreter, Nand to Tetris" />
 </head>
 <body>
 <header id="title-block-header">
-<h1 class="title">Logic Gates</h1>
+<h1 class="title">Combinational Logic Gates</h1>
 </header>
 <header class="header">
 <a href="./post3.html" class="home-link">← back</a>
@@ -53,9 +53,28 @@ professors.</p>
 <p><strong>Progress:</strong> Completed Project 1 from the book. All
 material updated on my github <a
 href="https://github.com/deepak-venkatesh/nand-to-tetris">here</a></p>
-<p>Some of the logic gates I have built are documented below.</p>
-<h2 id="not-logic-gate-1-bit">NOT Logic Gate 1 bit</h2>
+<p>Some of the combinational logic gates I have built are documented
+below.</p>
+<h2 id="not-logic-gate">NOT Logic Gate</h2>
 <p>Also called the inverter simply converts a 0 to 1 and a 1 to 0.</p>
+<table>
+<thead>
+<tr>
+<th>IN</th>
+<th>NOT</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0</td>
+<td>1</td>
+</tr>
+<tr>
+<td>1</td>
+<td>0</td>
+</tr>
+</tbody>
+</table>
 <img src="../assets/not_gate.jpeg" class="responsive-img" />
 <center>
 <small>1 Bit Not Logic Gate Circuit</small>
@@ -67,6 +86,172 @@ href="https://github.com/deepak-venkatesh/nand-to-tetris">here</a></p>
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowfullscreen> </iframe></p>
 </div>
+<h2 id="and-logic-gate">AND Logic Gate</h2>
+<p>The truth table is below.</p>
+<table>
+<thead>
+<tr>
+<th>A</th>
+<th>B</th>
+<th>AND</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+</tr>
+<tr>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+<h2 id="or-logic-gate">OR Logic Gate</h2>
+<p>The truth table is below.</p>
+<table>
+<thead>
+<tr>
+<th>A</th>
+<th>B</th>
+<th>OR</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>0</td>
+<td>1</td>
+<td>1</td>
+</tr>
+<tr>
+<td>1</td>
+<td>0</td>
+<td>1</td>
+</tr>
+<tr>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+<h2 id="nor-logic-gate">NOR Logic Gate</h2>
+<p>The truth table is below.</p>
+<table>
+<thead>
+<tr>
+<th>A</th>
+<th>B</th>
+<th>NOR</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+</tr>
+<tr>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+</tr>
+<tr>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>1</td>
+<td>1</td>
+<td>0</td>
+</tr>
+</tbody>
+</table>
+<h2 id="nand-logic-gate">NAND Logic Gate</h2>
+<p>The truth table is below.</p>
+<table>
+<thead>
+<tr>
+<th>A</th>
+<th>B</th>
+<th>NAND</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+</tr>
+<tr>
+<td>0</td>
+<td>1</td>
+<td>1</td>
+</tr>
+<tr>
+<td>1</td>
+<td>0</td>
+<td>1</td>
+</tr>
+<tr>
+<td>1</td>
+<td>1</td>
+<td>0</td>
+</tr>
+</tbody>
+</table>
+<h2 id="xor-logic-gate">XOR Logic Gate</h2>
+<p>The truth table is below. I used NAND gates to build the XOR
+gate.</p>
+<table>
+<thead>
+<tr>
+<th>A</th>
+<th>B</th>
+<th>XOR</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>0</td>
+<td>1</td>
+<td>1</td>
+</tr>
+<tr>
+<td>1</td>
+<td>0</td>
+<td>1</td>
+</tr>
+<tr>
+<td>1</td>
+<td>1</td>
+<td>0</td>
+</tr>
+</tbody>
+</table>
 <p><em>Last Updated: 4 Oct 2026</em></p>
 <footer class="footer">
 <a href="./post3.html" class="home-link">← back</a>
