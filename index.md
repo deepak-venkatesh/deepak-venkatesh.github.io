@@ -19,7 +19,7 @@ header-includes:
 <li>[Particle Physics](https://deepak-venkatesh.github.io/posts/post3particle.html)</li>
 <li>[Solid State Physics](https://deepak-venkatesh.github.io/posts/post4solidstate.html)</li>
 <li>[Transistors](https://deepak-venkatesh.github.io/posts/post5transistors.html)</li>
-<li>[Logic Gates](https://deepak-venkatesh.github.io/posts/post6logicgates.html)</li>
+<li>[Combinational Logic Gates](https://deepak-venkatesh.github.io/posts/post6logicgates.html)</li>
 </ul>
 
 
