@@ -6,6 +6,7 @@ header-includes:
   - <link rel="icon" type="image/x-icon" href="favicon.ico">
 ---
 
+> _Ne te quaesiveris extra == Do not seek yourself outside yourself._
 
 ## Posts
 1. [The Schemer Simplified](https://deepak-venkatesh.github.io/posts/post1.html)
