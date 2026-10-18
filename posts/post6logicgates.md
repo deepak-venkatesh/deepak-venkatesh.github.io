@@ -26,8 +26,8 @@ Also called the inverter simply converts a 0 to 1 and a 1 to 0.
 | 0  | 1   |
 | 1  | 0   |
 
-![](../assets/not_gate.jpeg){.responsive-img}
-<center> <small>1 Bit Not Logic Gate Circuit</small> </center>
+![](../assets/NOT-Gate.png){.responsive-img}
+<center> <small>1 Bit NOT Logic Gate Circuit</small> </center>
 
 <div class="video-container video-landscape">
   <iframe
@@ -48,6 +48,19 @@ The truth table is below.
 | 1 | 0 | 0   |
 | 1 | 1 | 1   |
 
+![](../assets/AND-Gate.png){.responsive-img}
+<center> <small>1 Bit AND Logic Gate Circuit</small> </center>
+
+<div class="video-container video-landscape">
+  <iframe
+    src="https://www.youtube.com/watch?v=GGVlgF7a0zY"
+    title="AND Gate"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen>
+  </iframe>
+</div>
+
+
 ## OR Logic Gate
 The truth table is below.
 
@@ -57,6 +70,18 @@ The truth table is below.
 | 0 | 1 | 1  |
 | 1 | 0 | 1  |
 | 1 | 1 | 1  |
+
+![](../assets/OR-Gate.png){.responsive-img}
+<center> <small>1 Bit OR Logic Gate Circuit</small> </center>
+
+<div class="video-container video-landscape">
+  <iframe
+    src="https://www.youtube.com/watch?v=ViSYYkTSXuE"
+    title="OR Gate"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen>
+  </iframe>
+</div>
 
 ## NOR Logic Gate
 The truth table is below.
@@ -68,6 +93,19 @@ The truth table is below.
 | 1 | 0 | 0   |
 | 1 | 1 | 0   |
 
+![](../assets/NOR-Gate.png){.responsive-img}
+<center> <small>1 Bit NOR Logic Gate Circuit</small> </center>
+
+<div class="video-container video-landscape">
+  <iframe
+    src="https://www.youtube.com/watch?v=BWPggF5wnLQ"
+    title="NOR Gate"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen>
+  </iframe>
+</div>
+
+
 ## NAND Logic Gate
 The truth table is below.
 
@@ -77,6 +115,19 @@ The truth table is below.
 | 0 | 1 | 1    |
 | 1 | 0 | 1    |
 | 1 | 1 | 0    |
+
+![](../assets/NAND-Gate.png){.responsive-img}
+<center> <small>1 Bit NAND Logic Gate Circuit</small> </center>
+
+<div class="video-container video-landscape">
+  <iframe
+    src="https://www.youtube.com/watch?v=wSkmmx20C0M"
+    title="NAND Gate"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen>
+  </iframe>
+</div>
+
 
 ## XOR Logic Gate
 The truth table is below. I used NAND gates to build the XOR gate.
@@ -88,8 +139,22 @@ The truth table is below. I used NAND gates to build the XOR gate.
 | 1 | 0 | 1   |
 | 1 | 1 | 0   |
 
+![](../assets/XOR-Gate.png){.responsive-img}
+<center> <small>1 Bit XOR Logic Gate Circuit</small> </center>
 
-_Last Updated: 4 Oct 2026_
+<div class="video-container video-landscape">
+  <iframe
+    src="https://www.youtube.com/watch?v=go_RwYugdTc"
+    title="XOR Gate"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen>
+  </iframe>
+</div>
+
+
+**Endnote**: These were simply 1 bit combinational logic gates. Now onto half adders and full adders and then perhaps build a 4 bit, 8 bit or even a 16 bit full adder followed by an ALU (Arithmetic Logic Unit).
+
+_Last Updated: 17 Oct 2026_
 
 <footer class="footer">
   <a href="./post3.html" class="home-link">← back</a>
