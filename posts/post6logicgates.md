@@ -53,7 +53,7 @@ The truth table is below.
 
 <div class="video-container video-landscape">
   <iframe
-    src="https://www.youtube.com/watch?v=GGVlgF7a0zY"
+    src="https://www.youtube.com/embed/GGVlgF7a0zY"
     title="AND Gate"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowfullscreen>
@@ -76,7 +76,7 @@ The truth table is below.
 
 <div class="video-container video-landscape">
   <iframe
-    src="https://www.youtube.com/watch?v=ViSYYkTSXuE"
+    src="https://www.youtube.com/embed/ViSYYkTSXuE"
     title="OR Gate"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowfullscreen>
@@ -98,7 +98,7 @@ The truth table is below.
 
 <div class="video-container video-landscape">
   <iframe
-    src="https://www.youtube.com/watch?v=BWPggF5wnLQ"
+    src="https://www.youtube.com/embed/BWPggF5wnLQ"
     title="NOR Gate"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowfullscreen>
@@ -121,7 +121,7 @@ The truth table is below.
 
 <div class="video-container video-landscape">
   <iframe
-    src="https://www.youtube.com/watch?v=wSkmmx20C0M"
+    src="https://www.youtube.com/embed/wSkmmx20C0M"
     title="NAND Gate"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowfullscreen>
@@ -144,7 +144,7 @@ The truth table is below. I used NAND gates to build the XOR gate.
 
 <div class="video-container video-landscape">
   <iframe
-    src="https://www.youtube.com/watch?v=go_RwYugdTc"
+    src="https://www.youtube.com/embed/go_RwYugdTc"
     title="XOR Gate"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowfullscreen>
