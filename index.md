@@ -21,6 +21,7 @@ _Ne te quaesiveris extra_ | _Do not seek yourself outside yourself._
 <li>[Solid State Physics](https://deepak-venkatesh.github.io/posts/post4solidstate.html)</li>
 <li>[Transistors](https://deepak-venkatesh.github.io/posts/post5transistors.html)</li>
 <li>[Combinational Logic Gates](https://deepak-venkatesh.github.io/posts/post6logicgates.html)</li>
+<li>[Adders](https://deepak-venkatesh.github.io/posts//post7adders.html)</li>
 </ul>
 
 

@@ -61,6 +61,8 @@ I will use this blog post to publish every step of building this computer. As I 
 
 4. [Combinational Logic Gates](./post6logicgates.html)
 
+5. [Adders](./post7adders.html)
+
 
 _Last Updated: Feb 2026_
 <footer class="footer">

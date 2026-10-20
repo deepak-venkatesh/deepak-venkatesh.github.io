@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta name="keywords" content="Half Adder, Full Adder, Ripple Carry
+Adder, Binary Adders, Logic
+Gates, AND, OR, NAND, XOR, NOT, Transistors, PNP transistor, BJT, Solid
+State Physics, Silicon, N-Type, P-Type, Doping, Band Structure, PN
+Junction, Computer Architecture, First Principles, Logic
+Gates, Transistors, ALU, RAM, CPU, Memory, Machine
+Language, Assembly, Virtual Machine, High Level
+Language, Compiler, Interpreter, Nand to Tetris" />
+  <meta name="description" content="Building a Computer from the ground up" />
+  <title>Adders</title>
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+  </style>
+  <link rel="stylesheet" href="../main.css" />
+  <link rel="icon" type="image/x-icon" href="../favicon.ico">
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">Adders</h1>
+</header>
+<header class="header">
+<a href="./post3.html" class="home-link">← back</a>
+</header>
+<blockquote>
+<p><em>The unity expresses God; the zero nothing; and every number is
+composed of the unity and the zero.</em> - Gottfried Leibniz</p>
+</blockquote>
+<p><strong>Progress:</strong> Completed Project 2 from the book. All
+material updated on my github <a
+href="https://github.com/deepak-venkatesh/nand-to-tetris">here</a>.
+Although the chapter includes Arithmetic Logic Unit in the hardware
+simulator. I will need to implement that in physical circuits.</p>
+<h2 id="half-adder">Half Adder</h2>
+<p>This was fun. Since my kids participated to build this. The video is
+narrated by my 3rd grader daughter and the sum and carry LED glows is
+called out by my toddler son. I am still using transistors in this and
+as you can see the number of transistors is 10 now. I will probably
+switch to ICs for my full adder.</p>
+<p>A half adder adds two bits. A bit is like we mentioned before a 0 or
+1 (in the world of binary).</p>
+<table>
+<thead>
+<tr>
+<th>A</th>
+<th>B</th>
+<th>CARRY</th>
+<th>SUM</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>1</td>
+</tr>
+<tr>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+</tr>
+<tr>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>0</td>
+</tr>
+</tbody>
+</table>
+<img src="../assets/Half-Adder.png" class="responsive-img" />
+<center>
+<small>Half Adder</small>
+</center>
+<div class="video-container video-landscape">
+<p><iframe
+    src="https://www.youtube.com/embed/MjyxJtvg9s0"
+    title="Half Adder"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen> </iframe></p>
+</div>
+<p><em>Last Updated: 19 Oct 2026</em></p>
+<footer class="footer">
+<a href="./post3.html" class="home-link">← back</a>
+</footer>
+</body>
+</html>

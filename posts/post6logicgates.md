@@ -16,7 +16,11 @@ Starting from this section of my notepad on building a computer I can align each
 
 **Progress:** Completed Project 1 from the book. All material updated on my github [here](https://github.com/deepak-venkatesh/nand-to-tetris)
 
-Some of the combinational logic gates I have built are documented below. 
+Some of the combinational logic gates I have built are documented below. Combinational logic gates mean that the output is dependent on a combination of the inputs. The output is free from time or any sequences as such.
+
+These gates are the building blocks for the next set of circuits which we will make. Here we are using BJTs like we mentioned in the previous part of this project and within the next few circuits we will move to ICs or Integrated Circuits. ICs essentially are an extremely compact version of these BJT based circuits. 
+
+If you are reading this and trying to build your own computer now is the time to start researching on what components you need to buy. All my circuits have the exact parts labelled. All of this is put on to breadboards. Videos or photos show the exact mechanism. Hope this will help.
 
 ## NOT Logic Gate
 Also called the inverter simply converts a 0 to 1 and a 1 to 0. 
